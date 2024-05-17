@@ -1,0 +1,51 @@
+@import "./Poppins-Font/stylesheet.css";
+
+*{
+    font-family: 'poppins'
+}
+
+body, html {
+    height: 100%;
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+}
+
+#app{
+    height: 100%;
+}
+
+#modal{
+    display: grid;
+    justify-content: center;
+}
+
+.content{
+    background-color: var(--bs-gray-100);
+    margin: 20px;
+    min-height: 500px;
+    border-radius: 16px;
+    padding-top: 20px;
+}
+
+.text {
+    color: var(--bs-gray-600);
+}
+
+.table > tr {
+    background-color: var(--bs-primary);
+}
+
+.succes{
+    color: green;
+}
+  
+.fail{
+    color: red;
+}
+
+select{
+    padding: 0 10px;
+    border-radius: 5px;
+    color: var(--bs-primary);
+    border: 1px solid var(--bs-primary);
+}
